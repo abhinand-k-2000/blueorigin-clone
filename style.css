@@ -1,0 +1,504 @@
+body{
+    margin: 0 ;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    overflow-x: hidden;
+}
+.first-part{
+    width: 100%;
+    height: 707px;
+    background-image: url(images/FirstPicture.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    /* top: 0; */
+    height: 110px;
+}
+
+.header-left{
+    float: left;
+    
+}
+
+.header-right{
+    height: 110px;
+    margin-left: 192px;
+    font-size: smaller;
+    padding-left: 300px;
+    padding-top: 30px;
+    /* width: 1005px; */
+    
+}
+.logo-picture{
+    height: 48px;
+    /* max-width: 100%; */
+    margin-left: 25px;
+    margin-top: 18px;
+}
+
+.header-right ul li{
+    list-style: none;
+    float: left;
+    display: inline;
+    margin: 0 20px;
+    position: relative;       /*doubt in position relatice*/
+    cursor: pointer;
+}
+
+
+
+.pic-language{
+    height: 33px;
+    float: left;
+    width: 40px;
+    margin: -8px;
+    margin-left: 5px;
+}
+
+.flyto{
+    margin-left: 32px;
+    background: #03d;
+    border-radius: 2px;
+    /* font-weight: 700; */
+    padding: 17px; 
+    cursor: pointer;
+}
+
+.menu{
+    font-size: 42px;
+    right: 25px;
+    bottom: -31px;
+    position: absolute;
+}
+.menu h2{
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.header-right ul li::after{                         /*hovering 1*/
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.1s;
+}
+.header-right ul li:hover::after{
+    width: 100%;
+}
+.first-content1{
+    position: absolute;
+    font-size: 35px;
+    top: 28%;
+    left: 7%;
+}
+.first-content2{
+    position: absolute;
+    font-size: 45px;
+    top: 38%;
+    left: 7%;
+}
+.first-button{
+    position: absolute;
+    top: 60%;
+    left: 7%;
+}
+.button-explore{
+    background: transparent;
+    color: #fff;
+    padding: 15px 60px 15px 60px;
+    border: 1px solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+.second-part{
+    height: 710px;
+    background-image: url(images/SecondPicture.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.second-content1{
+    position: absolute;
+    left: 31%;
+    font-size: 45px;
+    top: 27%;
+}
+.second-content2{
+    position: absolute;
+    font-size: 35px;
+    top: 37%;
+    left: 34%;
+}
+.second-button{
+    position: absolute;
+    left: 41%;
+    top: 59%;
+}
+.second-part button{
+    background: transparent;
+    padding: 15px 32px 15px 32px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+
+
+
+
+.third-part{
+    height: 710px;
+    background-image: url(images/picture3New.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.third-content1{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    font-size: 35px;
+    
+}
+.third-content2{
+    position: absolute;
+    font-size: 67px;
+    left: 7%;
+    top: 38%;
+    font-weight: 100;
+}
+.third-button{
+    position: absolute;
+    top: 49%;
+    left: 7%;
+}
+.third-button button{
+    background: transparent;
+    padding: 15px 50px 15px 50px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+
+
+
+.fourth-part{
+    height: 710px;
+    background-image: url(images/picture4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.fourth-content1{
+    position: absolute;
+    top: 21%;
+    left: 6%;
+    font-size: 35px;
+}
+.fourth-content2{
+    position: absolute;
+    top: 38%;
+    left: 6%;
+    font-size: 70px;
+}
+.fourth-content3{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    font-weight: 100;
+    font-size: 21.5px;
+    line-height: 1.5;
+}
+.fourth-button{
+    position: absolute;
+    top: 65%;
+    left: 6%;
+}
+.fourth-button button{
+    background: transparent;
+    padding: 15px 50px 15px 50px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+.fifth-part{
+    height: 710px;
+    background-image: url(images/picture5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.fifth-content1{
+    position: absolute;
+    top: 22%;
+    left: 29%;
+    font-size: 84px;
+    font-weight: 100;
+}
+.fifth-content2{
+    position: absolute;
+    top: 25%;
+    left: 28%;
+    font-size: 42px;
+}
+.fifth-content3{
+    position: absolute;
+    font-size: 16px;
+    top: 45%;
+    left: 15%;
+    line-height: 1.5;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+.fifth-button{
+    position: absolute;
+    top: 66%;
+    left: 42%;
+}
+.fifth-button button{
+    background: transparent;
+    padding: 15px 50px 15px 50px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+.footer-1{
+    height: 100px;
+    background: #03d;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;  
+    position: relative;
+}
+.footer-1-text{
+    position: absolute;
+    left: 35%;
+    font-weight: 100;
+}
+.icons{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 49%;
+    top: 40%;
+}
+.icons a{
+    padding-left: 40px;
+    height: 10px;
+}
+.social{
+    position: relative;
+    font-size: 20px;
+}       
+
+.social:hover {
+    position: relative;
+    background-color: transparent;
+    border-radius: 200px;
+    border: 1px solid;
+    padding: 15px;
+  }
+
+
+.footer-2{
+    height: 680px;
+    background: #222;
+}
+
+.foot2Sec1{
+    width: 35%;
+    height: 680px;
+    float: left;
+    position: relative;
+}
+.featherpic{
+    position: absolute;
+    top: 31%;
+    left: 30%;
+}
+.featherpic img{
+    width: 219px;
+    height: 143px;
+}
+.copyright{
+    font-weight: 100;
+    font-size: 10px;
+    position: absolute;
+    top: 58%;
+    left: 30%;
+    letter-spacing: 2px;
+    line-height: 15px;
+
+}
+.privpolicy{
+    position: absolute;
+    top: 64%;
+    font-weight: 100;
+    font-size: 10px;
+    left: 22%;
+    letter-spacing: 1px;
+}
+
+.privpolicy ul li{
+    list-style: none;
+    display: inline;
+    margin: 0;
+}
+.verticalLine {
+    top: 20%;
+    border-left: 1px solid white;
+    height: 438px;
+    position: absolute;
+    left: 97%;
+}
+
+.foot2Sec2{
+    width: 30%;
+    height: 680px;
+    float: left;
+    position: relative;
+}
+.list{
+    font-weight: 100;
+    position: absolute;
+    top: 14%;
+    left: 20%;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.list ul li{
+    list-style: none;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative
+}
+
+                                                /*       Hovering 2 */
+
+
+.list ul li::after{                       
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: #0d6efd;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.list ul li:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.list select{
+
+    padding: 10px 20px;
+    background: #222;
+    color: #fff;
+    font-weight: 100;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.foot2Sec3{
+    width: 35%;
+    height: 680px;
+    float: left;
+    background: #2a2a2a;
+    position: relative;
+}
+.foot2sec3Contents{
+    left: 11%;
+    position: absolute;
+    top: 15%;
+}
+
+.sec3cont-2{
+    font-weight: 100;
+}
+.sec3cont-3{
+    position: absolute;
+    top: 138%;
+}
+.sec3cont-3 hr{
+    margin-top: 37px;
+    width: 339px;
+}
+.sec3box{
+    position: absolute;
+    top: 208%; 
+    left: -4px;     
+}
+.sec3box input{
+    width: 21px;
+    height: 23px;
+}
+.sec3para{
+    font-style: italic;
+    font-weight: 100;
+    left: 52px;
+    line-height: 1.5;
+    position: absolute;
+    font-size: 14px;
+    word-spacing: 5px;
+    top: 208%;
+    width: 346px;
+    color: #d8d8d8;
+}
+.sec3button{
+    position: absolute;
+    top: 429%;
+}
+.sec3button button{
+    background: transparent;
+    padding: 7px 15px 7px 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: bolder;
+    border: 1px solid;
+    font-weight: bold;
+}
